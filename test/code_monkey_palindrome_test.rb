@@ -26,4 +26,8 @@ class CodeMonkeyPalindromeTest < Minitest::Test
     assert 12321.palindrome?
   end
 
+  def test_space
+    assert !" ".palindrome?
+  end
+
 end
